@@ -1,0 +1,6 @@
+*.eps linguist-vendored
+angular*.js linguist-vendored
+bootstrap.js linguist-vendored
+bootstrap.css linguist-vendored
+jquery*.js linguist-vendored
+
