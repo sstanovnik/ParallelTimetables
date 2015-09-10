@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<subjects xmlns="http://stanovnik.net/ParallelTimetables"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://stanovnik.net/ParallelTimetables subjects.xsd">
+    <subject id="1">
+        <lecture_classrooms>
+            <id>1</id>
+            <id>2</id>
+            <id>3</id>
+        </lecture_classrooms>
+        <tutorial_classrooms>
+            <id>1</id>
+            <id>2</id>
+            <id>3</id>
+        </tutorial_classrooms>
+        <professors>
+            <id>1</id>
+        </professors>
+        <assistants>
+            <id weight="1.0">7</id>
+        </assistants>
+    </subject>
+    <subject id="2">
+        <lecture_classrooms>
+            <id>1</id>
+            <id>2</id>
+            <id>3</id>
+        </lecture_classrooms>
+        <tutorial_classrooms>
+            <id>1</id>
+            <id>2</id>
+            <id>3</id>
+        </tutorial_classrooms>
+        <professors>
+            <id>1</id>
+        </professors>
+        <assistants>
+            <id weight="0.5">5</id>
+            <id weight="0.5">6</id>
+        </assistants>
+    </subject>
+    <subject id="3">
+        <lecture_classrooms>
+            <id>1</id>
+            <id>2</id>
+            <id>3</id>
+        </lecture_classrooms>
+        <tutorial_classrooms>
+            <id>1</id>
+            <id>2</id>
+            <id>3</id>
+        </tutorial_classrooms>
+        <professors>
+            <id>1</id>
+            <id>3</id>
+        </professors>
+        <assistants>
+            <id weight="0.2">4</id>
+            <id weight="0.8">6</id>
+        </assistants>
+    </subject>
+    <subject id="4">
+        <lecture_classrooms>
+            <id>1</id>
+            <id>2</id>
+            <id>3</id>
+        </lecture_classrooms>
+        <tutorial_classrooms>
+            <id>1</id>
+            <id>2</id>
+            <id>3</id>
+        </tutorial_classrooms>
+        <professors>
+            <id>3</id>
+        </professors>
+        <assistants>
+            <id weight="0.2">5</id>
+            <id weight="0.2">6</id>
+            <id weight="0.6">7</id>
+        </assistants>
+    </subject>
+    <subject id="5">
+        <lecture_classrooms>
+            <id>1</id>
+            <id>2</id>
+            <id>3</id>
+        </lecture_classrooms>
+        <tutorial_classrooms>
+            <id>1</id>
+            <id>2</id>
+            <id>3</id>
+        </tutorial_classrooms>
+        <professors>
+            <id>1</id>
+        </professors>
+        <assistants>
+            <id weight="1.0">5</id>
+        </assistants>
+    </subject>
+    <subject id="6">
+        <lecture_classrooms>
+            <id>1</id>
+            <id>2</id>
+            <id>3</id>
+        </lecture_classrooms>
+        <tutorial_classrooms>
+            <id>1</id>
+            <id>2</id>
+            <id>3</id>
+        </tutorial_classrooms>
+        <professors>
+            <id>1</id>
+        </professors>
+        <assistants>
+            <id weight="0.6">8</id>
+            <id weight="0.4">10</id>
+        </assistants>
+    </subject>
+    <subject id="7">
+        <lecture_classrooms>
+            <id>1</id>
+            <id>2</id>
+            <id>3</id>
+        </lecture_classrooms>
+        <tutorial_classrooms>
+            <id>1</id>
+            <id>2</id>
+            <id>3</id>
+        </tutorial_classrooms>
+        <professors>
+            <id>2</id>
+        </professors>
+        <assistants>
+            <id weight="1.0">9</id>
+        </assistants>
+    </subject>
+    <subject id="8">
+        <lecture_classrooms>
+            <id>1</id>
+            <id>2</id>
+            <id>3</id>
+        </lecture_classrooms>
+        <tutorial_classrooms>
+            <id>1</id>
+            <id>2</id>
+            <id>3</id>
+        </tutorial_classrooms>
+        <professors>
+            <id>2</id>
+        </professors>
+        <assistants>
+            <id weight="0.3">9</id>
+            <id weight="0.7">10</id>
+        </assistants>
+    </subject>
+    <subject id="9">
+        <lecture_classrooms>
+            <id>1</id>
+            <id>2</id>
+            <id>3</id>
+        </lecture_classrooms>
+        <tutorial_classrooms>
+            <id>1</id>
+            <id>2</id>
+            <id>3</id>
+        </tutorial_classrooms>
+        <professors>
+            <id>3</id>
+        </professors>
+        <assistants>
+            <id weight="0.5">7</id>
+            <id weight="0.5">8</id>
+        </assistants>
+    </subject>
+    <subject id="10">
+        <lecture_classrooms>
+            <id>1</id>
+            <id>2</id>
+            <id>3</id>
+        </lecture_classrooms>
+        <tutorial_classrooms>
+            <id>1</id>
+            <id>2</id>
+            <id>3</id>
+        </tutorial_classrooms>
+        <professors>
+            <id>3</id>
+        </professors>
+        <assistants>
+            <id weight="0.5">4</id>
+            <id weight="0.5">9</id>
+        </assistants>
+    </subject>
+</subjects>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<professors xmlns="http://stanovnik.net/ParallelTimetables"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://stanovnik.net/ParallelTimetables professors.xsd">
+    <professor id="1">
+        <name>one</name>
+        <available_hours>0</available_hours>
+    </professor>
+    <professor id="2">
+        <name>two</name>
+        <available_hours>0</available_hours>
+    </professor>
+    <professor id="3">
+        <name>three</name>
+        <available_hours>0</available_hours>
+    </professor>
+    <professor id="4">
+        <name>four</name>
+        <available_hours>16</available_hours>
+    </professor>
+    <professor id="5">
+        <name>five</name>
+        <available_hours>14</available_hours>
+    </professor>
+    <professor id="6">
+        <name>six</name>
+        <available_hours>8</available_hours>
+    </professor>
+    <professor id="7">
+        <name>seven</name>
+        <available_hours>12</available_hours>
+    </professor>
+    <professor id="8">
+        <name>eight</name>
+        <available_hours>10</available_hours>
+    </professor>
+    <professor id="9">
+        <name>nine</name>
+        <available_hours>12</available_hours>
+    </professor>
+    <professor id="10">
+        <name>ten</name>
+        <available_hours>14</available_hours>
+    </professor>
+</professors>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classrooms xmlns="http://stanovnik.net/ParallelTimetables"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://stanovnik.net/ParallelTimetables classrooms.xsd">
+    <classroom id="1">
+        <capacity>7</capacity>
+    </classroom>
+    <classroom id="2">
+        <capacity>5</capacity>
+    </classroom>
+    <classroom id="3">
+        <capacity>17</capacity>
+    </classroom>
+</classrooms>

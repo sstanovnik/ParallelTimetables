@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<classrooms xmlns="http://stanovnik.net/ParallelTimetables" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://stanovnik.net/ParallelTimetables classrooms.xsd">
+    <classroom id="0">
+        <lecture_capacity>150</lecture_capacity>
+        <tutorial_capacity>30</tutorial_capacity>
+    </classroom>
+    <classroom id="1">
+        <lecture_capacity>120</lecture_capacity>
+        <tutorial_capacity>30</tutorial_capacity>
+    </classroom>
+    <classroom id="2">
+        <lecture_capacity>30</lecture_capacity>
+        <tutorial_capacity>30</tutorial_capacity>
+    </classroom>
+    <classroom id="3">
+        <lecture_capacity>30</lecture_capacity>
+        <tutorial_capacity>30</tutorial_capacity>
+    </classroom>
+    <classroom id="4">
+        <lecture_capacity>18</lecture_capacity>
+        <tutorial_capacity>18</tutorial_capacity>
+    </classroom>
+    <classroom id="5">
+        <lecture_capacity>18</lecture_capacity>
+        <tutorial_capacity>18</tutorial_capacity>
+    </classroom>
+    <classroom id="6">
+        <lecture_capacity>18</lecture_capacity>
+        <tutorial_capacity>18</tutorial_capacity>
+    </classroom>
+</classrooms>

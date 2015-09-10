@@ -1,0 +1,123 @@
+<?xml version="1.0" ?>
+<professors xmlns="http://stanovnik.net/ParallelTimetables" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://stanovnik.net/ParallelTimetables professors.xsd">
+    <professor id="0">
+        <name>prof 0</name>
+        <available_hours>0</available_hours>
+    </professor>
+    <professor id="20">
+        <name>assistant 0</name>
+        <available_hours>20</available_hours>
+    </professor>
+    <professor id="1">
+        <name>prof 1</name>
+        <available_hours>0</available_hours>
+    </professor>
+    <professor id="21">
+        <name>assistant 1</name>
+        <available_hours>20</available_hours>
+    </professor>
+    <professor id="2">
+        <name>prof 2</name>
+        <available_hours>0</available_hours>
+    </professor>
+    <professor id="22">
+        <name>assistant 2</name>
+        <available_hours>20</available_hours>
+    </professor>
+    <professor id="3">
+        <name>prof 3</name>
+        <available_hours>0</available_hours>
+    </professor>
+    <professor id="23">
+        <name>assistant 3</name>
+        <available_hours>20</available_hours>
+    </professor>
+    <professor id="4">
+        <name>prof 4</name>
+        <available_hours>0</available_hours>
+    </professor>
+    <professor id="24">
+        <name>assistant 4</name>
+        <available_hours>20</available_hours>
+    </professor>
+    <professor id="5">
+        <name>prof 5</name>
+        <available_hours>0</available_hours>
+    </professor>
+    <professor id="25">
+        <name>assistant 5</name>
+        <available_hours>20</available_hours>
+    </professor>
+    <professor id="6">
+        <name>prof 6</name>
+        <available_hours>0</available_hours>
+    </professor>
+    <professor id="26">
+        <name>assistant 6</name>
+        <available_hours>20</available_hours>
+    </professor>
+    <professor id="7">
+        <name>prof 7</name>
+        <available_hours>0</available_hours>
+    </professor>
+    <professor id="27">
+        <name>assistant 7</name>
+        <available_hours>20</available_hours>
+    </professor>
+    <professor id="8">
+        <name>prof 8</name>
+        <available_hours>0</available_hours>
+    </professor>
+    <professor id="28">
+        <name>assistant 8</name>
+        <available_hours>20</available_hours>
+    </professor>
+    <professor id="9">
+        <name>prof 9</name>
+        <available_hours>0</available_hours>
+    </professor>
+    <professor id="29">
+        <name>assistant 9</name>
+        <available_hours>20</available_hours>
+    </professor>
+    <professor id="10">
+        <name>prof 10</name>
+        <available_hours>0</available_hours>
+    </professor>
+    <professor id="11">
+        <name>prof 11</name>
+        <available_hours>0</available_hours>
+    </professor>
+    <professor id="12">
+        <name>prof 12</name>
+        <available_hours>0</available_hours>
+    </professor>
+    <professor id="13">
+        <name>prof 13</name>
+        <available_hours>0</available_hours>
+    </professor>
+    <professor id="14">
+        <name>prof 14</name>
+        <available_hours>0</available_hours>
+    </professor>
+    <professor id="15">
+        <name>prof 15</name>
+        <available_hours>0</available_hours>
+    </professor>
+    <professor id="16">
+        <name>prof 16</name>
+        <available_hours>0</available_hours>
+    </professor>
+    <professor id="17">
+        <name>prof 17</name>
+        <available_hours>0</available_hours>
+    </professor>
+    <professor id="18">
+        <name>prof 18</name>
+        <available_hours>0</available_hours>
+    </professor>
+    <professor id="19">
+        <name>prof 19</name>
+        <available_hours>0</available_hours>
+    </professor>
+</professors>

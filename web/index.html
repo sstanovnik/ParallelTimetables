@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="TimetableApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Timetable Viewer</title>
+    <script type="text/javascript" src="jquery-2.1.4.js"></script>
+    <script type="text/javascript" src="angular-1.4.4.js"></script>
+    <script type="text/javascript" src="bootstrap.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body ng-controller="MainCtrl">
+<div class="container">
+    <div class="row col-lg-12">
+        <div class="col-lg-3">
+            <span class="label label-default">Student: </span>
+            <select name="student" id="student" class="form-control" ng-options="key for (key, value) in students" ng-model="selectedArray" ng-change="refreshTooltips()">
+                <option value="">Not selected</option>
+            </select>
+        </div>
+        <div class="col-lg-3">
+            <span class="label label-default">Professor: </span>
+            <select name="professor" id="professor" class="form-control" ng-options="key for (key, value) in professors" ng-model="selectedArray" ng-change="refreshTooltips()">
+                <option value="">Not selected</option>
+            </select>
+        </div>
+        <div class="col-lg-3">
+            <span class="label label-default">Classroom: </span>
+            <select name="classroom" id="classroom" class="form-control" ng-options="key for (key, value) in classrooms" ng-model="selectedArray" ng-change="refreshTooltips()">
+                <option value="">Not selected</option>
+            </select>
+        </div>
+        <div class="col-lg-3">
+            <span class="label label-default">Subject: </span>
+            <select name="subject" id="subject" class="form-control" ng-options="key for (key, value) in subjects" ng-model="selectedArray" ng-change="refreshTooltips()">
+                <option value="">Not selected</option>
+            </select>
+        </div>
+    </div>
+    <div class="row col-lg-12">
+        <div class="table-responsive">
+            <table id="timetable" class="table table-striped table-bordered table-condensed table-hover">
+                <thead>
+                <tr>
+                    <th></th>
+                    <th class="time-cell">Mon</th>
+                    <th class="time-cell">Tue</th>
+                    <th class="time-cell">Wed</th>
+                    <th class="time-cell">Thu</th>
+                    <th class="time-cell">Fri</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr ng-repeat="hour in [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]">
+                    <td class="time-cell text-right">{{hour}}:00</td>
+                    <td ng-repeat="day in [0, 1, 2, 3, 4]">
+                        <div class="timetableEntry" ng-repeat="timetableEntry in selectedArray" ng-if="timetableEntry.day === day && timetableEntry.hour === hour">
+                            Subject: {{timetableEntry.subject}}
+                            <br/>
+                            Classroom: {{timetableEntry.classroom}}
+                            <br/>
+                            <span ng-show="timetableEntry.lectures">Lectures</span>
+                            <span ng-hide="timetableEntry.lectures">Tutorials</span>
+                            <br/>
+                            Professor(s): {{listToString(timetableEntry.professors)}}
+                            <br/>
+                            <span class="hover" title="{{listToString(timetableEntry.students)}}">Students ({{timetableEntry.students.length}})</span>
+                        </div>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+</body>
+</html>

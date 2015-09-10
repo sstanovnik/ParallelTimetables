@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<settings xmlns="http://stanovnik.net/ParallelTimetables"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://stanovnik.net/ParallelTimetables settings.xsd">
+    <population_size>2000</population_size>
+    <survivor_ratio>0.01</survivor_ratio>
+    <rounds>1000</rounds>
+    <mutation_probability>0.15</mutation_probability>
+    <stats_round_divisor>1</stats_round_divisor>
+</settings>

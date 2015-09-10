@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified"
+           elementFormDefault="qualified"
+           xmlns="http://stanovnik.net/ParallelTimetables classrooms.xsd"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://stanovnik.net/ParallelTimetables">
+    <xs:element name="classrooms">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="classroom" maxOccurs="unbounded" minOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="lecture_capacity" type="xs:unsignedInt"/>
+                            <xs:element name="tutorial_capacity" type="xs:unsignedInt"/>
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:integer" use="required"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

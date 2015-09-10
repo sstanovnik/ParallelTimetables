@@ -1,0 +1,19 @@
+.hover {
+    cursor: pointer;
+}
+
+.timetableEntry {
+    float: left;
+    background-color: rgba(211, 211, 211, 0.2);
+    padding-right: 5px;
+}
+
+td.time-cell {
+    width: 4em;
+    background-color: hsl(120, 20%, 70%);
+}
+
+th.time-cell {
+    text-align: center;
+    font-variant: small-caps;
+}
